@@ -1,2 +1,2 @@
 # CS7641
- GTech CS7641 Assignments
+This repo is dedicated to storing GTech CS7641 assignments. 
