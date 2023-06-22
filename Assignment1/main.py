@@ -3,7 +3,7 @@ import sys
 import sklearn
 import configparser
 
-from keras.datasets import mnist
+from keras.datasets import mnist, boston_housing
 
 from matplotlib import pyplot as plt
 
@@ -13,8 +13,8 @@ class Dataset:
     def init(self, name):
         if name == 'mnist':
             (train_X, train_y), (test_X, test_y) = mnist.load_data()
-        elif name == '':
-            pass
+        elif name == 'housing':
+            (train_X, train_y), (test_X, test_y) = boston_housing.load_data()
         else:
             raise Exception('Unhandled dataset')
         self.instances = {'train': train_X, 'test': test_X}
