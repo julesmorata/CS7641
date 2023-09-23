@@ -1,14 +1,14 @@
-training accuracy : 0.6831683168316832
-training confusion matrix : [[ 10   6   0   0   0   0]
- [  7 124  30   0   0   0]
- [  0  21 136   3   0   0]
- [  0   5  31   6   0   0]
- [  0   0   7   5   0   0]
- [  0   0  11   2   0   0]]
-test accuracy : 0.5392156862745098
-test confusion matrix : [[ 4  4  0  0  0  0]
- [ 2 13 10  0  0  0]
- [ 0 12 37  3  0  0]
- [ 0  1  9  1  0  0]
+training accuracy : 0.6188118811881188
+training confusion matrix : [[  0  16   0   0   0   0]
+ [  0 106  52   3   0   0]
+ [  0  25 123  12   0   0]
+ [  0   0  21  21   0   0]
+ [  0   1   5   6   0   0]
+ [  0   8   1   4   0   0]]
+test accuracy : 0.5
+test confusion matrix : [[ 0  8  0  0  0  0]
+ [ 0 15 10  0  0  0]
+ [ 0 18 29  5  0  0]
+ [ 0  0  4  7  0  0]
  [ 0  0  2  1  0  0]
- [ 0  0  1  2  0  0]]
+ [ 0  1  0  2  0  0]]
